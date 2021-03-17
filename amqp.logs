@@ -1,0 +1,176 @@
+openssl s_client -connect interconnect-cluster-a-5671-appdev-amq-interconnect.apps.my-cluster.ocp4.openshift.es:443 -showcerts  </dev/null
+
+
+CONNECTED(00000003)
+depth=1 CN = interconnect-cloud
+verify error:num=19:self signed certificate in certificate chain
+verify return:1
+depth=1 CN = interconnect-cloud
+verify return:1
+depth=0 CN = amq-interconnect.amq-messaging.svc.cluster.local
+verify return:1
+---
+Certificate chain
+ 0 s:CN = amq-interconnect.amq-messaging.svc.cluster.local
+   i:CN = interconnect-cloud
+-----BEGIN CERTIFICATE-----
+MIIC4TCCAckCFEme//5jlb9gzINsu/UJJIk9+migMA0GCSqGSIb3DQEBCwUAMB0x
+GzAZBgNVBAMMEmludGVyY29ubmVjdC1jbG91ZDAgFw0yMTAzMDgxNDI0NDFaGA8z
+MDIwMDcwOTE0MjQ0MVowOzE5MDcGA1UEAwwwYW1xLWludGVyY29ubmVjdC5hbXEt
+bWVzc2FnaW5nLnN2Yy5jbHVzdGVyLmxvY2FsMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAvq4EMSObCUDii60OR1I6SGVdjLqMiVwjXT1zQCT0TkNvBR+Y
+YbFAy7R56aPNnfIdKBYi5EcDk52E4GzzDDW1YLStcSJGS4tDstYk0qQoDVu7YNMj
+gHvog5ajAfC9gfIMeainz3zP7rOyMkOaQ1CTGYb0vviqQf/Lmf5cdHXGWmc+HiKX
+Z9poC9OLO7ZulWt3Dqi1tmeG5Pe9/YXeisfVzm5WgfW6gjvIjgUQxpWEBbq0nljf
+USiaRysmAE95/6ks/jEjFovwWOlUTAfHO9KSC7Qa6REe5+plXPpAF6DssMlLdzMe
+7/NuiSO+r55dn48fEeRETghOce0rBU7sMb8/xwIDAQABMA0GCSqGSIb3DQEBCwUA
+A4IBAQBLm76wgclRRiXKb6ohoGmfffQasODIsGE+3us6o7dgMagMsPfrk3V8QbuG
+8h399D3mSXPQks+Ymynpb4TMuVUGAbWyXPQgAL5F6kRMCQfyf74y9j3/FzGwKMUU
+sRVH0hOG4t4T/sBhzuF4FHUJFjDnX3bUyfzuPywyv0mb7m0uemkQ9nVv90y9Lb+L
+XXVjQNRZGCfT5IU4R4wI5DupLex6mGdNrYePq12P9YJ6NRZTZXAgN64bqcZV4K23
+dOWKQ++DK3brtxRhfPR09IirxLrRlE1XTxQkMZrFLc7hhBwHe6pDThdUOg2poofk
+TNfAkjydukhnIYIzDwvdeLHH9Kra
+-----END CERTIFICATE-----
+ 1 s:CN = interconnect-cloud
+   i:CN = interconnect-cloud
+-----BEGIN CERTIFICATE-----
+MIICwzCCAasCFEXjpxIfVKt5387mxQBoHsrxgtdwMA0GCSqGSIb3DQEBCwUAMB0x
+GzAZBgNVBAMMEmludGVyY29ubmVjdC1jbG91ZDAgFw0yMTAzMDgxNDI0MjZaGA8z
+MDIwMDcwOTE0MjQyNlowHTEbMBkGA1UEAwwSaW50ZXJjb25uZWN0LWNsb3VkMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAswK1TIKgwr0U2gRGs3odLoL+
+oD7cSisMxFT2OK5btZtic+1s49uKFz0LgyDYX0OtNqg10rgcSVovgXiiY0qL4yH3
+ykpSkw7rpeJsVbL1gNM9NyDg3cdKPaQ+43upSoSAb8trmbm+Hmad+4D7p5TG6DsD
+6Rltn+UUt2OsIehbSHdWOADyvHjUrZ+5oYhwMGrBvu3a54JZUnUZCB+mk9N0WKxL
+cTlH+B9FX71crPurnGaAQuA+trXprDhTDvXkQgwBKCrIgrqIO/H7uQEHstsX+erI
+QUNd/8y9sd8kZI3PUrV1cic74WkkdmoQT38B+tGH2AX+avS8+1dTBJTt5sbmcQID
+AQABMA0GCSqGSIb3DQEBCwUAA4IBAQBTKY7vpBJQh5INRTnGRogdZkEdSy0EMUyD
+FXuC7AIdVouzZ6nGQAK6Rjwmf6f++cpsTqje+AtlAbTufcWQsFatAISfJPeHU6b3
+PY3nzP25dUw/PZAhR6Sl3lWfB5sPL84Lug+j3D6ll4t7Hlnt15RQs2SSrmXOwkib
+svPOKDn0ZofRQ2FRQAkXXTl9Om9QNab0cRBk7OSYmEgT1AIxyD98INBhicma1dyy
+4vuwmaVtsqvCpk0CVxdpPX2YCXkeU1H9xrvLG6rMdTP9K+4CwmeceGOEXNbxmLTG
+WaNQN4rWViTNLBcsyHZs/xLNOSIMMcK2/yeyOpSBrtOvISVvFPNv
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN = amq-interconnect.amq-messaging.svc.cluster.local
+
+issuer=CN = interconnect-cloud
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: DH, 2048 bits
+---
+SSL handshake has read 2631 bytes and written 695 bytes
+Verification error: self signed certificate in certificate chain
+---
+New, TLSv1.2, Cipher is DHE-RSA-AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : DHE-RSA-AES256-GCM-SHA384
+    Session-ID: 95CEA5C0368D32A3EB3707CF60117C3DFCA2E4B20AA12E7D5ADEB226FF01F234
+    Session-ID-ctx: 
+    Master-Key: 71E255CEBFA70EB87D9369C1F63EC690C28D7B0A39D4669232E457323950122387FFD63187FA2D1E80BF4D5BA31869F1
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 19 01 6e 40 91 ad 70 30-fc 0c d1 ad bc fb 7c bf   ..n@..p0......|.
+    0010 - 23 b7 48 55 d6 84 6c b3-44 b3 76 71 c7 59 fb 2b   #.HU..l.D.vq.Y.+
+    0020 - 4f f3 02 28 09 b7 a5 0c-12 1b 85 36 ea ee c7 96   O..(.......6....
+    0030 - 3b ca 3d 79 9e e5 fd fc-59 20 64 a2 6d da 99 53   ;.=y....Y d.m..S
+    0040 - 63 4d 88 24 a5 8d 5d 09-5b c2 a4 00 9c 71 d4 4c   cM.$..].[....q.L
+    0050 - f7 ed fd 98 d9 a1 c9 3c-8b ae 11 f2 e8 53 48 84   .......<.....SH.
+    0060 - 93 87 3b 02 18 72 b1 60-54 87 b3 18 0a 1a d9 f7   ..;..r.`T.......
+    0070 - 1b 25 cc f6 4e 0b 43 ec-bf ac 24 18 d1 cc 47 0d   .%..N.C...$...G.
+    0080 - 6c 55 5b 78 b6 60 01 cb-16 e8 f6 22 0a 89 13 f0   lU[x.`....."....
+    0090 - 60 44 c0 ee c7 10 b1 71-7f 33 06 96 ea 5c b6 ee   `D.....q.3...\..
+    00a0 - 3b 70 9b 56 64 de 67 1d-ba a4 3e 4a 44 0f f4 42   ;p.Vd.g...>JD..B
+    00b0 - c8 03 74 ec ef 41 13 f5-00 23 6d 89 6f c0 67 41   ..t..A...#m.o.gA
+    00c0 - 4a 47 30 71 17 78 a2 1e-5c 21 0f 8d e6 99 88 01   JG0q.x..\!......
+    00d0 - e0 6d 5b 8a 47 67 7f 6e-d7 3b 0c c6 b7 e0 39 25   .m[.Gg.n.;....9%
+    00e0 - 6d ab 48 4f 89 91 bd 42-cd 37 2c da ef a3 fc d8   m.HO...B.7,.....
+
+    Start Time: 1615971660
+    Timeout   : 7200 (sec)
+    Verify return code: 19 (self signed certificate in certificate chain)
+    Extended master secret: no
+---
+DONE
+
+
+
+
+
+
+
+
+
+
+
+
+openssl s_client -connect amq-broker-a-acceptor-0-appdev-amq-interconnect.apps.my-cluster.ocp4.openshift.es:443  -showcerts  </dev/null
+
+
+
+CONNECTED(00000003)
+depth=0 CN = amq-broker
+verify error:num=18:self signed certificate
+verify return:1
+depth=0 CN = amq-broker
+verify return:1
+---
+Certificate chain
+ 0 s:CN = amq-broker
+   i:CN = amq-broker
+-----BEGIN CERTIFICATE-----
+MIICyzCCAbOgAwIBAgIEXlbPoTANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwph
+bXEtYnJva2VyMCAXDTIxMDIwNDIzMTg1N1oYDzMwMjAwNjA3MjMxODU3WjAVMRMw
+EQYDVQQDEwphbXEtYnJva2VyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAuJtbgCKALKlDUgufCGqqO8woUrFefOw+r+pfIt+xloilWnqf8L0Vri/xU0PE
+I2UZuZIq6kIHBtISUi+RkGFLtUwkcpo1Y16V4dASsFYaGxdbxfNHuDRQ7vTJdKh8
+argGviFYaRjTaGRhX3ga9Ne7/5u9dzTaXI19GgamYsEyFB0a2kN7Qf6PC+oRy9ad
+gOalY5Lr375q+PEDYAGL32NOHDQgHzc8jLmaIqdjEFfl1O0vmFrQtgUyKUZJenLN
+ylQf8WZQM3gB1KJVIgzh7ClVCyTkWHGpKMriEV0P/AEwQA3xLqy0G/bo7rQE+4q6
+oUFTKhzXfkzU0TgoW13NQUn8EwIDAQABoyEwHzAdBgNVHQ4EFgQUrIm0L3RfbnKj
+8mG40kU4YIqCITMwDQYJKoZIhvcNAQELBQADggEBAE0XsF8XKjXj24N1xjBPLzVN
+EKiPfOFVZQlAUZjniB5atxBX3oTdUb2qUjnta0kcioEYJt6tKWYmRU9t1acJ+MDI
+Pxv6zPYAstXak9Ut18QPyyKzVz3lwP/xYMN+Xw0xUgWrsC6j+3CfnH9d6MLbTTgw
+3w23ufgCa9Z5lzwzGBD76TKWmzmbFk/TsqiGX4zU/AS4hbrLXQYV8YwrW/5YsCc0
+vASUeEiB5erfjpjUgxFJiAdM2vEPIqhGaHDdcI8bEjWH5GShl768PqSipmb8w0WV
+o67M/wuxvf/ukbrpq0aHa5SDf9PkiBwJPem0Ne5SwBxOZCLz3VtEvkNwd5s4eJE=
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN = amq-broker
+
+issuer=CN = amq-broker
+
+---
+No client certificate CA names sent
+Requested Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512:ECDSA+SHA1:RSA+SHA1
+Shared Requested Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 1553 bytes and written 994 bytes
+Verification error: self signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self signed certificate)
+---
+DONE
