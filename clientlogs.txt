@@ -1,0 +1,188 @@
+Connecting to interconnect
+amqps://interconnect-cluster-a-5671-appdev-amq-interconnect.apps.my-cluster.ocp4.openshift.es:443
+
+connected
+[0000021F76118070]:EVENT:DEBUG:(PN_CONNECTION_INIT, pn_connection<0000021F760DD0E0>)
+[0000021F76118070]:EVENT:DEBUG:(PN_CONNECTION_BOUND, pn_connection<0000021F760DD0E0>)
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:Sending client hello 241 bytes
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 241
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=7951 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=7951 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_input_ssl( data size=2325 )
+[0000021F76118070]:  SSL:DEBUG:client handshake token 318 bytes
+[0000021F76118070]:  SSL:TRACE:process_input_ssl() returning 2325, forwarded 0
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 318
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=7874 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning 0
+[0000021F76118070]:  SSL:TRACE:process_input_ssl( data size=306 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[0000021F76118070]:  SSL:TRACE:process_output_ssl() returning -1
+[0000021F76118070]:EVENT:DEBUG:(PN_TRANSPORT_ERROR, pn_transport<0000021F76118070>)
+[0000021F76118070]:EVENT:DEBUG:(PN_TRANSPORT_TAIL_CLOSED, pn_transport<0000021F76118070>)
+[0000021F76118070]:EVENT:DEBUG:(PN_TRANSPORT_HEAD_CLOSED, pn_transport<0000021F76118070>)
+[0000021F76118070]:EVENT:DEBUG:(PN_TRANSPORT_CLOSED, pn_transport<0000021F76118070>)
+amqp:connection:framing-error: SSL Failure: TLS certificate verification error
+
+
+
+Conncting to broker directly
+amqps://amq-broker-a-acceptor-0-appdev-amq-interconnect.apps.my-cluster.ocp4.openshift.es:443
+
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_CONNECTION_INIT, pn_connection<000001B65ED4C500>)
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_CONNECTION_BOUND, pn_connection<000001B65ED4C500>)
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:Sending client hello 237 bytes
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 237
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=7955 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=7955 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_input_ssl( data size=1318 )
+[000001B65ED6F1C0]:  SSL:DEBUG:client handshake token 1117 bytes
+[000001B65ED6F1C0]:  SSL:TRACE:process_input_ssl() returning 1318, forwarded 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 1117
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=7075 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_input_ssl( data size=51 )
+[000001B65ED6F1C0]:  SSL:DEBUG:client handshake successful 16413 max record size
+[000001B65ED6F1C0]:  SSL:TRACE:process_input_ssl() returning 51, forwarded 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:Gathered 8 bytes from app to send to peer
+[000001B65ED6F1C0]:  SSL:TRACE:Gathered 118 bytes from app to send to peer
+[000001B65ED6F1C0]:  SSL:TRACE:ssl_encrypt 155 network bytes
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 155
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8037 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_input_ssl( data size=228 )
+[000001B65ED6F1C0]:  SSL:TRACE:Next decryption, 0 left over
+[000001B65ED6F1C0]:  SSL:TRACE:Application consumed 8 bytes from peer
+[000001B65ED6F1C0]:  SSL:TRACE:Application consumed 191 bytes from peer
+[000001B65ED6F1C0]:  SSL:TRACE:process_input_ssl() returning 228, forwarded 199
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_CONNECTION_REMOTE_OPEN, pn_connection<000001B65ED4C500>)
+Outgoing client connection connected via SSL.  Server certificate identity CN=amq-broker
+ae06_100:6610_100:800d_0
+256
+TLSv1.2
+
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_TRANSPORT, pn_transport<000001B65ED6F1C0>)
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_SESSION_INIT, pn_session<000001B65EDCB580>)
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_SESSION_LOCAL_OPEN, pn_session<000001B65EDCB580>)
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_TRANSPORT, pn_transport<000001B65ED6F1C0>)
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_LINK_INIT, pn_link<000001B65EDD1D90>)
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_LINK_LOCAL_OPEN, pn_link<000001B65EDD1D90>)
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_TRANSPORT, pn_transport<000001B65ED6F1C0>)
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:Gathered 195 bytes from app to send to peer
+[000001B65ED6F1C0]:  SSL:TRACE:ssl_encrypt 224 network bytes
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 224
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=7968 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=7968 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_input_ssl( data size=147 )
+[000001B65ED6F1C0]:  SSL:TRACE:Next decryption, 0 left over
+[000001B65ED6F1C0]:  SSL:TRACE:Application consumed 118 bytes from peer
+[000001B65ED6F1C0]:  SSL:TRACE:process_input_ssl() returning 147, forwarded 118
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_SESSION_REMOTE_OPEN, pn_session<000001B65EDCB580>)
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_LINK_REMOTE_OPEN, pn_link<000001B65EDD1D90>)
+RECEIVE: Opened receiver for source address 'app.queue.a'
+[000001B65ED6F1C0]:EVENT:DEBUG:(PN_TRANSPORT, pn_transport<000001B65ED6F1C0>)
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:Gathered 8 bytes from app to send to peer
+[000001B65ED6F1C0]:  SSL:TRACE:ssl_encrypt 37 network bytes
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 37
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8155 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl( max_len=8192 )
+[000001B65ED6F1C0]:  SSL:TRACE:process_output_ssl() returning 0
